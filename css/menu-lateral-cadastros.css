@@ -13,6 +13,7 @@
 .menu__lateral--item a img {
     width: 3vw;
     margin-top: 1.5rem;
+    padding: 5px;
 }
 
 .menu__lateral--item a img:hover {
