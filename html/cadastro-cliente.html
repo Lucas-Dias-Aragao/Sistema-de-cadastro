@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/reset.css" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
+    <link href="../css/menu-inicial/menu-inicial.css" rel="stylesheet">
+    <link href="../css/cabecalho.css" rel="stylesheet">
+    <link href="../css/menu-lateral-cadastros.css" rel="stylesheet">
+    <link href="../css/menu-inicial/menu-inicial-lateral.css" rel="stylesheet">
+    <link href="../css/menu-inicial/menu-inicial-principal.css" rel="stylesheet">
+    <link href="../css/cadastros/formulario.css" rel="stylesheet">
+    <title>Sistema de cadastro</title>
+</head>
+<header class="cabecalho">
+    <img class="cabecalho__icone--cadastro" src="../img/arquivo.png" alt="icone de menu inicial">
+    <h2 class="cabecalho__titulo">Cadastro de cliente</h2>
+    <input type="search" class="cabecalho__pesquisa" placeholder="Pesquisar...">
+</header>
+<body>
+     <section class="menu-lateral">
+        <nav>
+            <ul>
+                <li class="menu__lateral--item"><a href="../index.html"><img src="../img/casa.png"></a></li>
+                <li class="menu__lateral--item"><a href="#"><img src="../img/arquivo.png"></a></li>
+                <li class="menu__lateral--item"><a href="#"><img src="../img/carrinho-de-compras.png"></a></li>
+                <li class="menu__lateral--item"><a href="#"><img src="../img/manutencao.png"></a></li>
+            </ul>
+       </nav>
+       <button class="cadastros__botao--ajuda">Ajuda</button>
+    </section>
+    <div class="botoes">
+        <button class="botao__novo">Novo</button>
+        <button class="botao__editar">Editar</button>
+        <button class="botao__gravar">Gravar</button>
+        <button class="botao__excluir">Excluir</button>
+    </div>
+    <main>
+        <section class="formulario__dados">
+            <form>
+                <div>
+                    <label for="id">ID:</label>
+                    <input type="text" id="id" class="input-padrao campo-id" required>
+                </div>
+                <div>
+                    <label for="cpf-cnpj">CPF/CNPJ:</label>
+                    <input type="text" id="cpf-cnpj" class="input-padrao campo-cpf" required>
+                </div>
+                <div>
+                    <label for="insc-estadual">Insc. Estadual:</label>
+                    <input type="text" id="insc-estadual" class="input-padrao campo-ie" required>
+                </div>
+                <div>
+                    <label for="razao-social">Razão socical:</label>
+                    <input type="text" id="razao-social" class="input-padrao campo-rs" required>
+                </div>
+                <div>
+                    <label for="nome-fantasia">Nome Fantasia:</label>
+                    <input type="text" id="nome-fantasia" class="input-padrao campo-nf" required>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" class="input-padrao campo-email" required>
+                </div>
+                <div>
+                    <label for="tel">Telefone:</label>
+                    <input type="tel" id="tel" class="input-padrao campo-tel" required>
+                </div>
+                <div>
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" class="input-padrao campo-end" required>
+                </div>
+                <div>
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep" class="input-padrao campo-cep" required>
+                </div>
+                <div>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" class="input-padrao campo-cidade" required>
+                </div>
+                <div>
+                    <label for="uf">UF:</label>
+                    <input type="text" id="uf" class="input-padrao campo-uf" required>
+                </div>
+                <div>
+                    <label for="complemento">Complemento:</label>
+                    <input type="text" id="complemento" class="input-padrao campo-complemento" required>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="rodape">Desenvolvido por LucasDias</footer>
+</body>
+
+</html>

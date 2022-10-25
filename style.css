@@ -1,0 +1,15 @@
+:root {
+    --cinza-cabecalho-lateral:linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+
+    --cinza-botao: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    
+    --cinza-botao-sair: linear-gradient(180deg, rgb(227, 224, 224), rgb(93, 93, 93));
+
+    --vermelho-botao: linear-gradient(180deg, rgb(188, 47, 62), rgb(88, 7, 7));
+
+    
+} 
+
+

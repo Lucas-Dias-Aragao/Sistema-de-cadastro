@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="css/menu-inicial/menu-inicial.css" rel="stylesheet">
+    <link href="css/cabecalho.css" rel="stylesheet">
+    <link href="css/menu-inicial/menu-inicial-lateral.css" rel="stylesheet">
+    <link href="css/menu-inicial/menu-inicial-principal.css" rel="stylesheet">
+    <title>Sistema de cadastro</title>
+</head>
+<header class="cabecalho">
+    <img class="cabecalho__icone--home" src="img/casa.png" alt="icone de menu inicial">
+    <h2 class="cabecalho__titulo">Menu Inicial</h2>
+    <input type="search" class="cabecalho__pesquisa" placeholder="Pesquisar...">
+</header>
+<body>
+    <section class="menu__usuario">
+        <img src="img/usuario.png" alt="foto de perfil do usuário" class="menu__usuario--foto">
+        <p class="menu__usuario--nome">Nome_do_usuário</p>
+        <p class="menu__usuario--tipo">Admin</p>
+            <div class="usuario__dados">
+                <img src="img/arquivo.png" class="usuario__dados--icone">
+                <p class="usuario__dados--opcao">Dados cadastrados</p>
+                <img src="img/senha.png" class="usuario__dados--icone">
+                <p class="usuario__dados--opcao">Alterar senha</p>
+                <img src="img/retrato.png" class="usuario__dados--icone">
+                <p class="usuario__dados--opcao">Alterar imagem do perfil</p>
+            </div>
+            <div class="menu__botao">
+                <button class="menu__botao--ajuda">Ajuda</button>
+                <button class="menu__botao--sair">Sair</button>
+            </div>     
+    </section>
+    <main>
+        <section class="menu__opcoes">
+            <div class="menu__opcoes--caixa">
+                <nav>
+                    <ul>
+                        <p class="menu__lista--titulo">CADASTROS</p>
+                        <li class="menu__lista--item"><a href="html/cadastro-cliente.html">Cliente</a></li>
+                        <li class="menu__lista--item"><a href="html/cadastro-vendedor.html">Vendedor</a></li>
+                        <li class="menu__lista--item"><a href="#">Transportadora</a></li>
+                        <li class="menu__lista--item"><a href="#">Condição de pagamento</a></li>
+                        <li class="menu__lista--item"><a href="#">Produtos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu__opcoes--caixa">
+                <nav>
+                    <ul>
+                        <p class="menu__lista--titulo">MOVIMENTAÇÃO</p>
+                        <li class="menu__lista--item"><a href="#">Pedidos</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+            <div class="menu__opcoes--caixa">
+                <nav>
+                    <ul>
+                        <p class="menu__lista--titulo">MANUTENÇÃO</p>
+                        <li class="menu__lista--item"><a href="#">Cadastro de usuários</a></li>
+                    </ul>
+                </nav>     
+            </div>
+
+        </section>
+    </main>
+    <footer class="rodape">Desenvolvido por LucasDias</footer>
+</body>
+
+</html>

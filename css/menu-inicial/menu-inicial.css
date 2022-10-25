@@ -1,0 +1,14 @@
+body {
+    background: #C0C0C0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rodape {
+    background: #1C1C1C;
+    border-top: 2px solid black;
+    color: white;
+    height: 8vh;
+    padding: 1.5625rem 5rem;
+    text-align:right;
+    width: auto;
+}

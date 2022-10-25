@@ -1,0 +1,131 @@
+.menu__usuario {
+    align-items:center;
+    background: var(--cinza-cabecalho-lateral);
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-right: 2px solid;
+}
+
+.menu__usuario--foto {
+    margin-top: 15px;
+    width: 12rem;
+}
+
+.menu__usuario--nome {
+    align-self: flex-start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
+.menu__usuario--tipo {
+    align-self: flex-start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 2%;
+    padding-left: 4%;
+}
+
+.usuario__dados {
+    align-items: center;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 90%;
+    
+}
+
+.usuario__dados--icone {
+    padding-left: 3px;
+    width: 1.5rem;
+    
+}
+
+.usuario__dados--opcao {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+.usuario__dados--opcao:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.menu__botao--ajuda {
+    background: var(--cinza-botao-sair);    
+    background-blend-mode: screen;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    height: 2rem;
+    width: 5rem;
+
+}
+
+.menu__botao--ajuda:hover {
+    background: #a9a9a9;
+    cursor: pointer;
+}
+
+.menu__botao--sair {
+    color: aliceblue;
+    background: var(--vermelho-botao);
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    height: 2rem;
+    width: 5rem;
+}
+
+.menu__botao--sair:hover {
+    background: rgb(87, 3, 3);
+    cursor: pointer;
+}
+
+.menu__botao {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 9vw;
+}
+
+@media screen and (max-width: 768px) {
+    .menu__usuario {
+        align-items:center;
+        background: var(--cinza-cabecalho-lateral);
+        display: flex;
+        height: 80vh;
+        flex-direction: column;
+        width: 20%;
+        border-right: 2px solid;
+    }
+
+    .menu__usuario--foto {
+        width: 8rem;
+    }
+
+    .menu__usuario--nome {
+        font-size: 13px;
+    }
+
+    .menu__usuario--tipo {
+        font-size: 11px;
+    }
+
+    .menu__botao--ajuda, .menu__botao--sair {
+        width: 7vw;
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
